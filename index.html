@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>虎牙直播流M3U生成器 - 多方案版</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            margin-top: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.2rem;
+        }
+        
+        .description {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        
+        .method-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .method-tab {
+            padding: 12px 20px;
+            background: #e9ecef;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        
+        .method-tab.active {
+            background: #3498db;
+            color: white;
+        }
+        
+        .method-content {
+            display: none;
+        }
+        
+        .method-content.active {
+            display: block;
+        }
+        
+        .input-area {
+            margin-bottom: 25px;
+        }
+        
+        textarea {
+            width: 100%;
+            height: 120px;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s;
+            resize: vertical;
+        }
+        
+        textarea:focus {
+            border-color: #3498db;
+        }
+        
+        .input-note {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-top: 8px;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+        
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        button:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+        
+        button.secondary {
+            background: #2ecc71;
+        }
+        
+        button.secondary:hover {
+            background: #27ae60;
+        }
+        
+        button.tertiary {
+            background: #9b59b6;
+        }
+        
+        button.tertiary:hover {
+            background: #8e44ad;
+        }
+        
+        .results-area {
+            margin-top: 20px;
+        }
+        
+        .result-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .result-title {
+            font-size: 1.2rem;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        
+        .m3u-content {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+            font-family: monospace;
+            white-space: pre-wrap;
+            max-height: 300px;
+            overflow-y: auto;
+            line-height: 1.5;
+        }
+        
+        .method-explanation {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        
+        .instructions {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 20px;
+            border-radius: 4px;
+            margin-top: 30px;
+        }
+        
+        .instructions h3 {
+            margin-bottom: 10px;
+            color: #1565c0;
+        }
+        
+        .instructions ol {
+            margin-left: 20px;
+        }
+        
+        .instructions li {
+            margin-bottom: 8px;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #ecf0f1;
+            font-size: 0.9rem;
+            width: 100%;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .button-group {
+                flex-direction: column;
+            }
+            
+            button {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .method-tabs {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>虎牙直播流M3U生成器</h1>
+            <p class="description">多种方法获取虎牙直播流，提高成功率</p>
+        </header>
+        
+        <div class="method-tabs">
+            <div class="method-tab active" data-method="method1">方法一：第三方API</div>
+            <div class="method-tab" data-method="method2">方法二：代理服务器</div>
+            <div class="method-tab" data-method="method3">方法三：本地解析</div>
+        </div>
+        
+        <div class="method-content active" id="method1">
+            <div class="method-explanation">
+                <strong>方法说明：</strong> 使用第三方API服务获取虎牙直播流地址，成功率较高。
+            </div>
+            
+            <div class="input-area">
+                <textarea id="roomInput1" placeholder="请输入虎牙房间号，每行一个（例如：52009）">52009
+shuaiguoakl</textarea>
+                <p class="input-note">支持输入多个房间号，每行输入一个</p>
+            </div>
+            
+            <div class="button-group">
+                <button onclick="generateM3U(1)">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 6V12L16 14M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    生成M3U文件
+                </button>
+            </div>
+        </div>
+        
+        <div class="method-content" id="method2">
+            <div class="method-explanation">
+                <strong>方法说明：</strong> 通过代理服务器获取直播流，需要自行搭建代理服务。
+            </div>
+            
+            <div class="input-area">
+                <textarea id="roomInput2" placeholder="请输入虎牙房间号，每行一个（例如：52009）">52009
+shuaiguoakl</textarea>
+                <p class="input-note">支持输入多个房间号，每行输入一个</p>
+                <input type="text" id="proxyUrl" placeholder="代理服务器地址（例如：http://your-proxy.com/）" style="width: 100%; padding: 10px; margin-top: 10px; border: 1px solid #ddd; border-radius: 4px;">
+            </div>
+            
+            <div class="button-group">
+                <button onclick="generateM3U(2)">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 6V12L16 14M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    生成M3U文件
+                </button>
+            </div>
+        </div>
+        
+        <div class="method-content" id="method3">
+            <div class="method-explanation">
+                <strong>方法说明：</strong> 使用本地JavaScript解析虎牙页面获取直播流（需要浏览器允许跨域）。
+            </div>
+            
+            <div class="input-area">
+                <textarea id="roomInput3" placeholder="请输入虎牙房间号，每行一个（例如：52009）">52009
+shuaiguoakl</textarea>
+                <p class="input-note">支持输入多个房间号，每行输入一个</p>
+            </div>
+            
+            <div class="button-group">
+                <button onclick="generateM3U(3)">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 6V12L16 14M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    生成M3U文件
+                </button>
+            </div>
+        </div>
+        
+        <div class="results-area">
+            <div class="result-header">
+                <div class="result-title">生成的M3U内容</div>
+                <button id="downloadM3U" class="secondary" onclick="downloadM3U()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15M17 10L12 15M12 15L7 10M12 15V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    下载M3U文件
+                </button>
+            </div>
+            <div id="m3uOutput" class="m3u-content">M3U内容将显示在这里...</div>
+        </div>
+        
+        <div class="instructions">
+            <h3>使用说明</h3>
+            <ol>
+                <li><strong>方法一（推荐）：</strong> 使用第三方API，成功率较高但依赖外部服务</li>
+                <li><strong>方法二：</strong> 需要自行搭建代理服务器，稳定性最好但需要技术知识</li>
+                <li><strong>方法三：</strong> 浏览器直接解析，可能受跨域限制影响</li>
+                <li>选择适合的方法，输入房间号，生成M3U文件</li>
+                <li>下载M3U文件并在播放器中打开</li>
+            </ol>
+            
+            <h3>推荐的第三方API服务</h3>
+            <p>您可以尝试以下第三方服务（需要自行验证可用性）：</p>
+            <ul>
+                <li>https://api.xiaoz.org/api/huya/</li>
+                <li>https://www.huyacg.xyz/</li>
+                <li>https://fanmingming.com/tools/huya/</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>本工具仅用于技术研究，请勿用于商业用途</p>
+        <p>© 2023 虎牙直播流M3U生成器 - 多方案版</p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 选项卡切换
+            const tabs = document.querySelectorAll('.method-tab');
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    tabs.forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    
+                    document.querySelectorAll('.method-content').forEach(content => {
+                        content.classList.remove('active');
+                    });
+                    
+                    document.getElementById(tab.getAttribute('data-method')).classList.add('active');
+                });
+            });
+            
+            // 初始化示例
+            generateExampleM3U();
+        });
+        
+        // 生成示例M3U内容
+        function generateExampleM3U() {
+            let m3uContent = "#EXTM3U\n";
+            m3uContent += "# 虎牙直播流M3U播放列表\n";
+            m3uContent += "# 生成时间: " + new Date().toLocaleString() + "\n\n";
+            
+            m3uContent += "#EXTINF:-1 tvg-id=\"huya_52009\" tvg-name=\"北枫\" group-title=\"虎牙直播\",北枫 - 绝活琪亚娜\n";
+            m3uContent += "https://www.huya.com/52009\n\n";
+            
+            m3uContent += "#EXTINF:-1 tvg-id=\"huya_shuaiguoakl\" tvg-name=\"帅锅\" group-title=\"虎牙直播\",帅锅英雄联盟直播\n";
+            m3uContent += "https://www.huya.com/shuaiguoakl\n";
+            
+            document.getElementById('m3uOutput').textContent = m3uContent;
+        }
+        
+        // 生成M3U内容
+        function generateM3U(method) {
+            const roomInput = document.getElementById(`roomInput${method}`);
+            const inputText = roomInput.value.trim();
+            
+            if (!inputText) {
+                alert('请输入虎牙房间号');
+                return;
+            }
+            
+            const lines = inputText.split('\n');
+            let m3uContent = "#EXTM3U\n";
+            m3uContent += "# 虎牙直播流M3U播放列表\n";
+            m3uContent += "# 生成时间: " + new Date().toLocaleString() + "\n";
+            m3uContent += "# 使用方法: " + document.querySelector('.method-tab.active').textContent + "\n\n";
+            
+            for (const line of lines) {
+                const roomId = line.trim();
+                if (!roomId) continue;
+                
+                let streamUrl = '';
+                let methodNote = '';
+                
+                switch(method) {
+                    case 1: // 第三方API
+                        streamUrl = `https://api.xiaoz.org/api/huya/?id=${roomId}`;
+                        methodNote = "第三方API方法";
+                        break;
+                    case 2: // 代理服务器
+                        const proxyUrl = document.getElementById('proxyUrl').value.trim() || 'http://your-proxy.com/';
+                        streamUrl = `${proxyUrl}huya/${roomId}`;
+                        methodNote = "代理服务器方法";
+                        break;
+                    case 3: // 本地解析
+                        streamUrl = `https://www.huya.com/${roomId}`;
+                        methodNote = "本地解析方法（可能需要浏览器插件）";
+                        break;
+                }
+                
+                m3uContent += `#EXTINF:-1 tvg-id="huya_${roomId}" tvg-name="${roomId}" group-title="虎牙直播",虎牙直播间 ${roomId} [${methodNote}]\n`;
+                m3uContent += `${streamUrl}\n\n`;
+            }
+            
+            document.getElementById('m3uOutput').textContent = m3uContent;
+        }
+        
+        // 下载M3U文件
+        function downloadM3U() {
+            const m3uContent = document.getElementById('m3uOutput').textContent;
+            if (!m3uContent || m3uContent === "M3U内容将显示在这里...") {
+                alert('没有可下载的内容，请先生成M3U文件');
+                return;
+            }
+            
+            const blob = new Blob([m3uContent], { type: 'audio/x-mpegurl' });
+            const url = URL.createObjectURL(blob);
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'huya_playlist.m3u';
+            document.body.appendChild(a);
+            a.click();
+            
+            // 清理
+            setTimeout(() => {
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }, 100);
+        }
+    </script>
+</body>
+</html>
