@@ -13,7 +13,7 @@ print(f"Conversion started at: {now.strftime('%Y-%m-%d %H:%M:%S')} Asia/Shanghai
 os.makedirs("output/rtp", exist_ok=True)
 
 # 频道LOGO基础URL
-LOGO_BASE_URL = "https://raw.githubusercontent.com/fanmingming/live/main/tv/"
+LOGO_BASE_URL = "https://gitee.com/ysx88/TVlogo/raw/main/img/"
 
 # 频道分组和标识映射
 def get_channel_info(channel_name):
