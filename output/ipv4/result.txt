@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-09-03 04:32:47,http://121.60.56.116:10001/rtp/239.69.1.138:10466
+2025-09-03 04:38:01,http://121.60.56.116:10001/rtp/239.69.1.138:10466
 
 📺央视频道,#genre#
 CCTV-4,http://121.60.56.116:10001/rtp/239.69.1.138:10466
@@ -16,8 +16,8 @@ CCTV-17,http://123.116.125.121:8012/rtp/239.3.1.151:8144
 📡卫视频道,#genre#
 北京卫视,http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8
 湖北卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=hubws
-河南卫视,http://lxajh.top/tv/hn.php?id=hnws
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws
+河南卫视,http://lxajh.top/tv/hn.php?id=hnws
 江苏卫视,http://mg.hmysapp.cn:177/ckmg/zb.php?id=jsws
 
 🌊港·澳·台,#genre#
