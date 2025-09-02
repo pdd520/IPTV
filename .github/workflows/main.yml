@@ -57,8 +57,8 @@ jobs:
       - name: sync github -> gitee
         uses: Yikun/hub-mirror-action@master
         with:
-          src: 'github/mytv-android'    			
-          dst: 'gitee/mytv-android'   
+          src: 'github/pdd520'    			
+          dst: 'gitee/ysx88'   
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}  
           dst_token:  ${{ secrets.GITEE_TOKEN }}  
           force_update: true
