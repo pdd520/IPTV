@@ -1,0 +1,61 @@
+name: Update schedule
+
+on:
+  schedule:
+    - cron: '0 22,10 * * *'
+  workflow_dispatch:
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  Update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Setup Python 3.13
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      - name: Install FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install pipenv
+        run: pip install pipenv
+
+      - name: Install dependencies
+        run: pipenv install --deploy
+
+      - name: Run update process
+        run: pipenv run dev
+
+      - name: Run conversion script
+        run: pipenv run python convert_rtp_to_m3u.py
+
+      - name: Update README timestamp
+        run: |
+          sed -i '/最后更新:/d' README.md
+          echo "最后更新: $(date +'%Y-%m-%d %H:%M:%S')" >> README.md
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto update: $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+
+      - name: Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          retain_days: 0
+          keep_minimum_runs: 2
