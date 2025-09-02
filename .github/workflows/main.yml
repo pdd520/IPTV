@@ -54,6 +54,18 @@ jobs:
             git push
           fi
 
+      - name: sync github -> gitee
+        uses: Yikun/hub-mirror-action@master
+        with:
+          src: 'github/mytv-android'    			
+          dst: 'gitee/mytv-android'   
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}  
+          dst_token:  ${{ secrets.GITEE_TOKEN }}  
+          force_update: true
+          static_list: "IPTV"
+          account_type: org   		
+          debug: true
+
       - name: Delete workflow runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
