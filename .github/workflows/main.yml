@@ -57,12 +57,12 @@ jobs:
       - name: sync github -> gitee
         uses: Yikun/hub-mirror-action@master
         with:
-          src: github/pdd520
-          dst: gitee/ysx88
+          src: '${{ secrets.SRC_PLATFORM }}/${{ secrets.SRC_ACCOUNT }}'
+          dst: '${{ secrets.DST_PLATFORM }}/${{ secrets.DST_ACCOUNT }}'
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}  
           dst_token:  ${{ secrets.GITEE_TOKEN }}  
           force_update: true
-          static_list: "IPTV" #目标仓库
+          static_list: ${{ secrets.REPO_LIST }}
           account_type: org
           debug: true
 
