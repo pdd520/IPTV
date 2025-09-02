@@ -57,13 +57,13 @@ jobs:
       - name: sync github -> gitee
         uses: Yikun/hub-mirror-action@master
         with:
-          src: '${{ secrets.SRC_PLATFORM }}/${{ secrets.SRC_ACCOUNT }}'
-          dst: '${{ secrets.DST_PLATFORM }}/${{ secrets.DST_ACCOUNT }}'
+          src: github/pdd520
+          dst: gitee/ysx88
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}  
           dst_token:  ${{ secrets.GITEE_TOKEN }}  
           force_update: true
-          static_list: ${{ secrets.REPO_LIST }}
-          account_type: org   		
+          static_list: "IPTV"
+          account_type: user 		
           debug: true
 
       - name: Delete workflow runs
