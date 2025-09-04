@@ -1,5 +1,5 @@
 #EXTM3U
-#Created by GitHub Actions: 2025-09-04 08:19:52 Asia/Shanghai
+#Created by GitHub Actions: 2025-09-04 10:29:11 Asia/Shanghai
 #Source: iptv
 
 #EXTINF:-1 tvg-name="CCTV-1" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV1.png" group-title="📺央视频道",CCTV1综合
@@ -38,6 +38,8 @@ rtp://239.45.3.52:5140
 rtp://239.45.1.82:5140
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/东南卫视.png" group-title="📺卫视频道",东南卫视
 rtp://239.45.1.121:5140
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/东方卫视.png" group-title="📺卫视频道",东方卫视
+rtp://239.45.3.146:5140
 #EXTINF:-1 tvg-name="云南卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/云南卫视.png" group-title="📺卫视频道",云南卫视
 rtp://239.45.0.4:5140
 #EXTINF:-1 tvg-name="兵团卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/兵团卫视.png" group-title="📺卫视频道",兵团卫视
