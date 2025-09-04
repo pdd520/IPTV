@@ -1,5 +1,5 @@
 #EXTM3U
-#Created by GitHub Actions: 2025-09-04 10:29:11 Asia/Shanghai
+#Created by GitHub Actions: 2025-09-04 10:40:30 Asia/Shanghai
 #Source: iptv
 
 #EXTINF:-1 tvg-name="CCTV-1" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV1.png" group-title="📺央视频道",CCTV1综合
@@ -12,6 +12,12 @@ rtp://239.45.1.68:5140
 rtp://239.45.0.2:5140
 #EXTINF:-1 tvg-name="CCTV-5" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV5.png" group-title="📺央视频道",CCTV5体育
 rtp://239.45.1.69:5140
+#EXTINF:-1 tvg-name="CCTV-5" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV5.png" group-title="📺央视频道",CCTV5⁺体育赛事
+rtp://233.50.201.220:5140
+#EXTINF:-1 tvg-name="CCTV-5" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV5.png" group-title="📺央视频道",CCTV5⁺体育赛事
+rtp://239.49.8.137:6000
+#EXTINF:-1 tvg-name="CCTV-5" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV5.png" group-title="📺央视频道",CCTV5⁺体育赛事
+rtp://225.1.8.20:8004
 #EXTINF:-1 tvg-name="CCTV-6" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV6.png" group-title="📺央视频道",CCTV6电影
 rtp://239.45.1.70:5140
 #EXTINF:-1 tvg-name="CCTV-7" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV7.png" group-title="📺央视频道",CCTV7国防军事
