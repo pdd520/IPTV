@@ -20,7 +20,7 @@ jobs:
       - name: Clean and deduplicate
         run: |
           # 过滤掉错误的 http:/// 链接，只保留正确的 http://IP:PORT/udp/... 地址
-          grep -E '^.+,http://[0-9]+\.[0-9]+\.[0-9]+:' raw.txt | sort -u > clean.txt
+          grep -E '^.+,http://[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:' raw.txt | sort -u > clean.txt
 
       - name: Convert to m3u
         run: |
@@ -34,9 +34,9 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          
-          # 检查是否有变化
-          if ! git diff --quiet iptv.m3u; then
+
+          # 检查 iptv.m3u 是否新增或修改
+          if [ -n "$(git status --porcelain iptv.m3u)" ]; then
             git add iptv.m3u
             git commit -m "Update IPTV playlist [$(date '+%Y-%m-%d %H:%M:%S')]"
             git push
