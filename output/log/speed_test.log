@@ -1,4 +1,5 @@
-Name: 河南卫视, URL: http://1.94.31.214/php/hntv.php?id=hnws, IPv_Type: ipv4, Location: 中国-上海-上海, ISP: 华为云, Date: None, Delay: 21 ms, Speed: 31.15 M/s, Resolution: 1920x1080
-Name: 北京卫视, URL: http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8, IPv_Type: ipv4, Location: 美国-德克萨斯州-达拉斯, ISP: 网宿科技CDN节点, Date: None, Delay: 11 ms, Speed: 10.03 M/s, Resolution: None
-Name: CCTV-17, URL: http://61.149.251.202:4022/rtp/239.3.1.151:8144, IPv_Type: ipv4, Location: 中国-北京-北京, ISP: 联通, Date: None, Delay: 477 ms, Speed: 0.92 M/s, Resolution: 1920x1080
-Name: CCTV-17, URL: http://123.116.125.121:8012/rtp/239.3.1.151:8144, IPv_Type: ipv4, Location: 中国-北京-北京, ISP: 联通, Date: None, Delay: 481 ms, Speed: 0.77 M/s, Resolution: 1920x1080
+Name: 河南卫视, URL: http://1.94.31.214/php/hntv.php?id=hnws, IPv_Type: ipv4, Location: 中国-上海-上海, ISP: 华为云, Date: None, Delay: 655 ms, Speed: 1.13 M/s, Resolution: 1920x1080
+Name: 北京卫视, URL: http://satellitepull.cnr.cn/live/wxbtv/playlist.m3u8, IPv_Type: ipv4, Location: 美国-德克萨斯州-达拉斯, ISP: 网宿科技CDN节点, Date: None, Delay: 175 ms, Speed: 0.60 M/s, Resolution: None
+Name: CCTV-8, URL: http://218.17.33.178:53290/tsfile/live/1008_1.m3u8?key=txiptv, IPv_Type: ipv4, Location: 中国-广东-深圳, ISP: 电信, Date: None, Delay: 10065 ms, Speed: 0.54 M/s, Resolution: 1920x1080
+Name: CCTV-17, URL: http://61.149.251.202:4022/rtp/239.3.1.151:8144, IPv_Type: ipv4, Location: 中国-北京-北京, ISP: 联通, Date: None, Delay: 437 ms, Speed: 0.95 M/s, Resolution: 1920x1080
+Name: CCTV-17, URL: http://123.116.125.121:8012/rtp/239.3.1.151:8144, IPv_Type: ipv4, Location: 中国-北京-北京, ISP: 联通, Date: None, Delay: 425 ms, Speed: 0.88 M/s, Resolution: 1920x1080
