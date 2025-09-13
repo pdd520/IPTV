@@ -1,67 +1,45 @@
-name: Update
+name: IPTV Update
 
 on:
-  watch:
-    types: [started]
-  #schedule:
-    #- cron: 0,30 * * * *
-
-env:
-  TZ: Asia/Shanghai
+  schedule:
+    - cron: "0 0 * * *"   # 每天运行一次
+  workflow_dispatch:
 
 jobs:
-  Update:
+  update-iptv:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-    - name: Delete workflow runs
-      uses: Mattraks/delete-workflow-runs@v2
-      with:
-        retain_days: 0
-        keep_minimum_runs: 3
+      - name: Download remote txt
+        run: |
+          curl -sL "https://raw.githubusercontent.com/redrainl/iptv/main/speedtest/txt/fofa_Shanghai_103.txt" -o raw.txt
 
-    - name: GetTime
-      id: date
-      run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M:%S')"
+      - name: Clean and deduplicate
+        run: |
+          # 过滤掉错误的 http:/// 链接，只保留正确的 http://IP:PORT/udp/... 地址
+          grep -E '^.+,http://[0-9]+\.[0-9]+\.[0-9]+:' raw.txt | sort -u > clean.txt
 
-    - name: Update
-      run: |
-        # 央视源
-        rm -f CCTV.m3u && wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CCTV.m3u
-        sed -i -n '/央视频道/,+1p' CCTV.m3u
-        sed -i '1i #EXTM3U' CCTV.m3u
-        sed -i '/^\s*$/d' CCTV.m3u
+      - name: Convert to m3u
+        run: |
+          echo "#EXTM3U" > iptv.m3u
+          while IFS=, read -r name url; do
+            echo "#EXTINF:-1,${name}" >> iptv.m3u
+            echo "${url}" >> iptv.m3u
+          done < clean.txt
 
-        # 卫视源
-        rm -f CNTV.m3u && touch CNTV.m3u
-        wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CNTV.m3u
-        sed -i -n '/卫视频道/,+1p' CNTV.m3u
-        sed -i '1i #EXTM3U' CNTV.m3u
-        sed -i '/^\s*$/d' CNTV.m3u
-
-        # 整合源
-        rm -f IPTV.m3u && touch IPTV.m3u
-        cat CCTV.m3u >> IPTV.m3u
-        cat CNTV.m3u >> IPTV.m3u
-        sed -i '/#EXTM3U/d' IPTV.m3u
-        sed -i '1i #EXTM3U' IPTV.m3u
-        sed -i '/^\s*$/d' IPTV.m3u
-
-        # 节目源
-        rm -f EPG.xml && wget https://epg.112114.xyz/pp.xml -O EPG.xml
-        echo "Auto Update in ${{ steps.date.outputs.date }}" > README.md
-
-    - name: Clean
-      run: |
-        git config --local user.email "actions@github.com"
-        git config --local user.name "GitHub Actions"
-        git checkout --orphan latest_branch
-        git add -A
-        git commit -am "${{ steps.date.outputs.date }}"
-        git branch -D main
-        git branch -m main
-
-    - name: Push
-      run: git push -f origin main
+      - name: Commit and Push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # 检查是否有变化
+          if ! git diff --quiet iptv.m3u; then
+            git add iptv.m3u
+            git commit -m "Update IPTV playlist [$(date '+%Y-%m-%d %H:%M:%S')]"
+            git push
+          else
+            echo "No changes detected, skip commit."
+          fi
