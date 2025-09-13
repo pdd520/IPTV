@@ -15,7 +15,7 @@ jobs:
 
       - name: Download remote txt
         run: |
-          curl -sL "https://raw.githubusercontent.com/redrainl/iptv/main/speedtest/txt/fofa_Shanghai_103.txt" -o raw.txt
+          curl -sL "https://raw.githubusercontent.com/redrainl/iptv/main/speedtest/txt/fofa_Shanghai_103.txt" -o fofa_Shanghai_103.txt
 
       - name: 准备频道文件
         run: |
