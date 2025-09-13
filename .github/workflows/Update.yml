@@ -17,42 +17,27 @@ jobs:
         run: |
           curl -sL "https://raw.githubusercontent.com/redrainl/iptv/main/speedtest/txt/fofa_Shanghai_103.txt" -o raw.txt
 
-      - name: Filter channels (CCTV + 卫视)
+      - name: 准备频道文件
         run: |
-          # 过滤出 CCTV 和 卫视，并去重
-          grep -E 'CCTV[0-9]+|卫视' raw.txt | grep -E 'http://[0-9]+\.[0-9]+\.[0-9]+:' | sort -u > filtered.txt
+          # 提取 CCTV 和 卫视频道，排除坏行
+          grep -E 'CCTV|卫视' fofa_Shanghai_103.txt | grep -v 'http:///udp/' > filtered.txt
 
-          # --- CCTV 处理 ---
-          grep -E 'CCTV[0-9]+' filtered.txt | \
-            sed -E 's/^CCTV-?([0-9]+)/CCTV\1/' | \
-            awk -F, '{print $0, substr($1,5)}' OFS=, | \
-            sort -t, -k3,3n | cut -d, -f1,2 > cctv_sorted.txt
+          # 去重
+          sort -u filtered.txt > deduped.txt
 
-          # --- 卫视处理 (拼音排序) ---
-          grep -E '卫视' filtered.txt | LC_ALL=C sort -t, -k1,1 > weishi_sorted.txt
-
-          # --- 合并 ---
-          cat cctv_sorted.txt weishi_sorted.txt > clean.txt
-
-      - name: Show stats
-        run: |
-          cctv_count=$(grep -c '^CCTV' cctv_sorted.txt || true)
-          weishi_count=$(grep -c '卫视' weishi_sorted.txt || true)
-          total_count=$(wc -l < clean.txt)
+          # 统计数量
+          cctv_count=$(grep -c 'CCTV' deduped.txt || true)
+          weishi_count=$(grep -c '卫视' deduped.txt || true)
+          total=$((cctv_count + weishi_count))
 
           echo "✅ 频道统计:"
-          echo "   CCTV: ${cctv_count} 个"
-          echo "   卫视: ${weishi_count} 个"
-          echo "   总计: ${total_count} 个"
+          echo "   CCTV: $cctv_count 个"
+          echo "   卫视: $weishi_count 个"
+          echo "   总计: $total 个"
 
-      - name: Convert to m3u
-        run: |
+          # 生成 iptv.m3u
           echo "#EXTM3U" > iptv.m3u
-          echo "# Playlist Updated: $(date '+%Y-%m-%d %H:%M:%S')" >> iptv.m3u
-          while IFS=, read -r name url; do
-            echo "#EXTINF:-1,${name}" >> iptv.m3u
-            echo "${url}" >> iptv.m3u
-          done < clean.txt
+          awk -F, '{print "#EXTINF:-1," $1; print $2}' deduped.txt >> iptv.m3u
 
       - name: Commit and Push if changed
         run: |
