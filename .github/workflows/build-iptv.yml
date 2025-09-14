@@ -1,0 +1,41 @@
+name: Build IPTV M3U
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - iptv.txt
+  workflow_dispatch:
+  schedule:
+    - cron: "0 20 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Convert iptv.txt to iptv.m3u
+        run: |
+          echo "#EXTM3U" > iptv.m3u
+          echo "# Generated on $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S %Z')" >> iptv.m3u
+          while IFS=, read -r name url; do
+            echo "#EXTINF:-1,$name" >> iptv.m3u
+            echo "$url" >> iptv.m3u
+          done < iptv.txt
+
+      - name: Commit and push m3u file
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add iptv.m3u
+          git commit -m "Auto-generate iptv.m3u" || echo "No changes to commit"
+          git push
+
+      - name: Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          retain_days: 0
+          keep_minimum_runs: 2
