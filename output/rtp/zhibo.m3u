@@ -1,0 +1,14 @@
+#EXTM3U
+#Created by GitHub Actions: 2025-09-17 06:15:59 Asia/Shanghai
+#Source: zhibo
+
+#EXTINF:-1 tvg-name="直播上海中外灘-HD" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/直播上海中外灘HD.png" group-title="📺地方频道",直播上海中外灘-HD
+rtmp://live-ws.kksmg.com/live/sdi4
+#EXTINF:-1 tvg-name="直播上海北外灘-HD" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/直播上海北外灘HD.png" group-title="📺地方频道",直播上海北外灘-HD
+rtmp://live-ws.kksmg.com/live/webcam1
+#EXTINF:-1 tvg-name="直播上海白渡橋-HD" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/直播上海白渡橋HD.png" group-title="📺地方频道",直播上海白渡橋-HD
+rtmp://live-ws.kksmg.com/live/webcam2
+#EXTINF:-1 tvg-name="直播上海陸家嘴-HD" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/直播上海陸家嘴HD.png" group-title="📺地方频道",直播上海陸家嘴-HD
+rtmp://live-ws.kksmg.com/live/sdi5
+#EXTINF:-1 tvg-name="直播上海魔都眼-HD" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/直播上海魔都眼HD.png" group-title="📺地方频道",直播上海魔都眼-HD
+rtmp://live-ws.kksmg.com/live/sdi6
