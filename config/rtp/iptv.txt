@@ -49,7 +49,6 @@ CCTV17农村农业,rtp://239.45.3.52:5140
 兵团卫视,rtp://239.45.1.117:5140
 三沙卫视,rtp://239.45.1.82:5140
 康巴卫视,rtp://239.45.1.251:5140
-中天新闻,https://k44991.kylintv.tv/live/cti_iphone.m3u8
 中天新闻,https://www.youtube.com/watch?v=vr3XyVCR4T0
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 中视新闻,https://www.youtube.com/watch?v=TCnaIE_SAtM
