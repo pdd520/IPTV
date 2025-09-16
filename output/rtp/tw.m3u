@@ -1,5 +1,5 @@
 #EXTM3U
-#Created by GitHub Actions: 2025-09-16 22:34:24 Asia/Shanghai
+#Created by GitHub Actions: 2025-09-16 22:57:12 Asia/Shanghai
 #Source: tw
 
 #EXTINF:-1 tvg-name="中天新闻" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/中天新闻.png" group-title="📺专题频道",中天新闻
@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=m_dhMSvUCIc
 #EXTINF:-1 tvg-name="三立iNEWS" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/三立iNEWS.png" group-title="📺其他频道",三立iNEWS
 https://www.youtube.com/watch?v=pF507BLtbqU
 #EXTINF:-1 tvg-name="中視新聞" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/中視新聞.png" group-title="📺其他频道",中視新聞
-https://www.youtube.com/watch?v=TCnaIE_SAtM
+https://www.youtube.com/watch?v=baDV1O5EBP0
 #EXTINF:-1 tvg-name="台視新聞台" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/台視新聞台.png" group-title="📺其他频道",台視新聞台
 https://www.youtube.com/watch?v=6RZu1sbhBZo
 #EXTINF:-1 tvg-name="寰宇新聞台" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/寰宇新聞台.png" group-title="📺其他频道",寰宇新聞台
