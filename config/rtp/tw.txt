@@ -2,7 +2,7 @@
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 三立iNEWS,https://www.youtube.com/watch?v=pF507BLtbqU
 寰宇新聞台,https://www.youtube.com/watch?v=Ej3LQM_lTEw
-中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
+中視新聞,https://www.youtube.com/watch?v=baDV1O5EBP0
 民視新聞,https://www.youtube.com/watch?v=YgLHEGajeYY
 台視新聞台,https://www.youtube.com/watch?v=6RZu1sbhBZo
 鏡新聞,https://www.youtube.com/watch?v=KUsUKi7kHzs
