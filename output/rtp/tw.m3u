@@ -1,22 +1,10 @@
 #EXTM3U
-#Created by GitHub Actions: 2025-09-19 06:14:10 Asia/Shanghai
+#Created by GitHub Actions: 2025-09-19 18:19:06 Asia/Shanghai
 #Source: tw
 
 #EXTINF:-1 tvg-name="中天新闻" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/中天新闻.png" group-title="📺专题频道",中天新闻
 https://www.youtube.com/watch?v=vr3XyVCR4T0
+#EXTINF:-1 tvg-name="中视新闻" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/中视新闻.png" group-title="📺专题频道",中视新闻
+https://www.youtube.com/watch?v=baDV1O5EBP0
 #EXTINF:-1 tvg-name="TVBS NEWS" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/TVBSNEWS.png" group-title="📺其他频道",TVBS NEWS
 https://www.youtube.com/watch?v=m_dhMSvUCIc
-#EXTINF:-1 tvg-name="三立iNEWS" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/三立iNEWS.png" group-title="📺其他频道",三立iNEWS
-https://www.youtube.com/watch?v=pF507BLtbqU
-#EXTINF:-1 tvg-name="中視新聞" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/中視新聞.png" group-title="📺其他频道",中視新聞
-https://www.youtube.com/watch?v=baDV1O5EBP0
-#EXTINF:-1 tvg-name="台視新聞台" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/台視新聞台.png" group-title="📺其他频道",台視新聞台
-https://www.youtube.com/watch?v=6RZu1sbhBZo
-#EXTINF:-1 tvg-name="寰宇新聞台" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/寰宇新聞台.png" group-title="📺其他频道",寰宇新聞台
-https://www.youtube.com/watch?v=Ej3LQM_lTEw
-#EXTINF:-1 tvg-name="民視新聞" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/民視新聞.png" group-title="📺其他频道",民視新聞
-https://www.youtube.com/watch?v=YgLHEGajeYY
-#EXTINF:-1 tvg-name="華視新聞" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/華視新聞.png" group-title="📺其他频道",華視新聞
-https://www.youtube.com/watch?v=wM0g8EoUZ_E
-#EXTINF:-1 tvg-name="鏡新聞" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/鏡新聞.png" group-title="📺其他频道",鏡新聞
-https://www.youtube.com/watch?v=KUsUKi7kHzs
