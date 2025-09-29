@@ -1,5 +1,1 @@
-#EXTM3U
-#EXTINF:-1 tvg-name="2025-09-29 14:20:40" tvg-logo="https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/tg.jpg" group-title="列表更新时间",2025-09-29 14:20:40
-https://cdn.jsdelivr.net/gh/feiyang666999/testvideo/time/time.mp4
-#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1012/0b/b913c74abe4120a411740247adb642_180_135.jpg?1750382593" group-title="原创", TG-老熊
-https://live.ottiptv.cc/huya/834622
+TG-老熊,https://live.ottiptv.cc/huya/834622
