@@ -51,7 +51,9 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Auto update: $(date +'%Y-%m-%d %H:%M:%S')"
-            git push
+            git fetch origin
+            git rebase origin/master
+            git push origin master
           fi
 
       - name: sync github -> gitee
