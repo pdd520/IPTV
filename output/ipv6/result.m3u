@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/pdd520/IPTV/refs/heads/master/output/epg/epg.gz"
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV1.png" group-title="🕘️更新时间",2025-11-24 18:18:04
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV1.png" group-title="🕘️更新时间",2025-11-25 06:14:20
 http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV1.png" group-title="📺央视频道",CCTV-1
 http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
@@ -96,8 +96,6 @@ https://event.pull.hebtv.com/jishi/cp1.m3u8
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV13.png" group-title="📺央视频道",CCTV-13
 http://jwplay.hebyun.com.cn/live/cctv13/1500k/tzwj_video.m3u8
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV13.png" group-title="📺央视频道",CCTV-13
-https://ldncctvwbcdcnc.v.wscdns.com/ldncctvwbcd/cdrmldcctv13_1/index.m3u8
-#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV13.png" group-title="📺央视频道",CCTV-13
 http://iptv.huuc.edu.cn/hls/cctv13hd.m3u8
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV13.png" group-title="📺央视频道",CCTV-13
 https://live.chinacert.cftest5.cn/mg/?id=608807423
@@ -139,6 +137,8 @@ https://live.chinacert.cftest5.cn/mg/?id=608831231
 https://zby.130519.xyz/PLTV/11/224/3221225731/index.m3u8
 #EXTINF:-1 tvg-name="香港卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/香港卫视.png" group-title="📡卫视频道",香港卫视
 http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/浙江卫视.png" group-title="📡卫视频道",浙江卫视
+http://ali-vl.cztv.com/channels/lantian/channel001/360p.m3u8
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/浙江卫视.png" group-title="📡卫视频道",浙江卫视
 http://iptv.huuc.edu.cn/hls/zjhd.m3u8
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/浙江卫视.png" group-title="📡卫视频道",浙江卫视
@@ -228,7 +228,7 @@ https://live.chinacert.cftest5.cn/mg/?id=790187291
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/河南卫视.png" group-title="📡卫视频道",河南卫视
 https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/河南卫视.png" group-title="📡卫视频道",河南卫视
-http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=792fa9c0b4aa1f4f3c5e2448293a14aa&wsTime=1763992896
+http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=d32c3f7e6933ff312c9a6ab55e866a34&wsTime=1764028808
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/吉林卫视.png" group-title="📡卫视频道",吉林卫视
 https://live.chinacert.cftest5.cn/mg/?id=947472500
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/吉林卫视.png" group-title="📡卫视频道",吉林卫视
@@ -261,8 +261,6 @@ https://zby.130519.xyz/PLTV/11/224/3221225747/index.m3u8
 https://iptv.catvod.com/live.php?id=%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86%E5%8F%B0
 #EXTINF:-1 tvg-name="内蒙古卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/内蒙古卫视.png" group-title="📡卫视频道",内蒙古卫视
 https://iptv.catvod.com/live.php?id=%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86%E5%8F%B0
-#EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/青海卫视.png" group-title="📡卫视频道",青海卫视
-http://lu.wqwqwq.sbs/itv/1000000002000013359.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/青海卫视.png" group-title="📡卫视频道",青海卫视
 https://live.chinacert.cftest5.cn/mg/?id=947472506
 #EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/青海卫视.png" group-title="📡卫视频道",青海卫视

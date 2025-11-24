@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2025-11-24 18:18:04,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+2025-11-25 06:14:20,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
 
 📺央视频道,#genre#
 CCTV-1,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
@@ -49,7 +49,6 @@ CCTV-12,https://zby.130519.xyz/PLTV/11/224/3221226103/index.m3u8
 CCTV-12,https://iptv.catvod.com/live.php?id=CCTV12
 CCTV-13,https://event.pull.hebtv.com/jishi/cp1.m3u8
 CCTV-13,http://jwplay.hebyun.com.cn/live/cctv13/1500k/tzwj_video.m3u8
-CCTV-13,https://ldncctvwbcdcnc.v.wscdns.com/ldncctvwbcd/cdrmldcctv13_1/index.m3u8
 CCTV-13,http://iptv.huuc.edu.cn/hls/cctv13hd.m3u8
 CCTV-13,https://live.chinacert.cftest5.cn/mg/?id=608807423
 CCTV-13,https://zby.130519.xyz/PLTV/11/224/3221226128/index.m3u8
@@ -73,6 +72,7 @@ CCTV-17,https://iptv.catvod.com/live.php?id=CCTV17
 广东卫视,https://live.chinacert.cftest5.cn/mg/?id=608831231
 广东卫视,https://zby.130519.xyz/PLTV/11/224/3221225731/index.m3u8
 香港卫视,http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+浙江卫视,http://ali-vl.cztv.com/channels/lantian/channel001/360p.m3u8
 浙江卫视,http://iptv.huuc.edu.cn/hls/zjhd.m3u8
 浙江卫视,https://zby.130519.xyz/PLTV/11/224/3221225727/index.m3u8
 湖南卫视,http://iptv.huuc.edu.cn/hls/hunanhd.m3u8
@@ -117,7 +117,7 @@ CCTV-17,https://iptv.catvod.com/live.php?id=CCTV17
 河南卫视,http://tvpull.dxhmt.cn:9081/tv/11425-1.m3u8
 河南卫视,https://live.chinacert.cftest5.cn/mg/?id=790187291
 河南卫视,https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8
-河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=792fa9c0b4aa1f4f3c5e2448293a14aa&wsTime=1763992896
+河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=d32c3f7e6933ff312c9a6ab55e866a34&wsTime=1764028808
 吉林卫视,https://live.chinacert.cftest5.cn/mg/?id=947472500
 吉林卫视,https://zby.130519.xyz/PLTV/11/224/3221226149/index.m3u8
 吉林卫视,https://iptv.catvod.com/live.php?id=%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86%E5%8F%B0
@@ -134,7 +134,6 @@ CCTV-17,https://iptv.catvod.com/live.php?id=CCTV17
 辽宁卫视,https://zby.130519.xyz/PLTV/11/224/3221225747/index.m3u8
 辽宁卫视,https://iptv.catvod.com/live.php?id=%E8%BE%BD%E5%AE%81%E5%8D%AB%E8%A7%86%E5%8F%B0
 内蒙古卫视,https://iptv.catvod.com/live.php?id=%E5%86%85%E8%92%99%E5%8F%A4%E5%8D%AB%E8%A7%86%E5%8F%B0
-青海卫视,http://lu.wqwqwq.sbs/itv/1000000002000013359.m3u8?cdn=ystenlive
 青海卫视,https://live.chinacert.cftest5.cn/mg/?id=947472506
 青海卫视,https://zby.130519.xyz/PLTV/11/224/3221226105/index.m3u8
 青海卫视,https://iptv.catvod.com/live.php?id=%E9%9D%92%E6%B5%B7%E5%8D%AB%E8%A7%86%E5%8F%B0
