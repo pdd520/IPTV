@@ -42,7 +42,6 @@ CCTV-14,https://zby.130519.xyz/PLTV/11/224/3221225738/index.m3u8
 CCTV-15,https://zby.130519.xyz/PLTV/11/224/3221226147/index.m3u8
 CCTV-15,https://iptv.catvod.com/live.php?id=CCTV-15
 CCTV-16,http://livetv.wqwqwq.sbs/gaoma/cctv4k16.m3u8
-CCTV-16,http://lu.wqwqwq.sbs/itv/1000000006000233002.m3u8?cdn=ystenlive
 CCTV-16,https://zby.130519.xyz/PLTV/11/224/3221226120/index.m3u8
 CCTV-17,https://iptv.catvod.com/live.php?id=CCTV-17
 
@@ -88,7 +87,7 @@ CCTV-17,https://iptv.catvod.com/live.php?id=CCTV-17
 河北卫视,https://iptv.catvod.com/live.php?id=%E6%B2%B3%E5%8C%97%E5%8D%AB%E8%A7%86
 河南卫视,http://tvpull.dxhmt.cn:9081/tv/11425-1.m3u8
 河南卫视,https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8
-河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=f12b6d5f8fea53956394c43b33353397&wsTime=1767016864
+河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=e180dc50c7c46dd247a30d00ae181eec&wsTime=1767060038
 吉林卫视,https://zby.130519.xyz/PLTV/11/224/3221226149/index.m3u8
 吉林卫视,https://iptv.catvod.com/live.php?id=%E5%90%89%E6%9E%97%E5%8D%AB%E8%A7%86%E5%8F%B0
 江苏卫视,http://iptv.huuc.edu.cn/hls/jshd.m3u8
@@ -124,4 +123,4 @@ CCTV-17,https://iptv.catvod.com/live.php?id=CCTV-17
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 
 🕘️更新时间,#genre#
-2025-12-29 18:16:48,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+2025-12-30 06:19:00,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
