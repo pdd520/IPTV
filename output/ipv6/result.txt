@@ -6,7 +6,6 @@ CCTV-3,http://iptv.huuc.edu.cn/hls/cctv3hd.m3u8
 CCTV-4,https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
 CCTV-4,http://iptv.huuc.edu.cn/hls/cctv4hd.m3u8
 CCTV-5,http://iptv.huuc.edu.cn/hls/cctv5hd.m3u8
-CCTV-5,https://ldcctvwbcdks.v.kcdnvip.com/ldcctvwbcd/cdrmldcctv5plus_1/index.m3u8?b=200-2100
 CCTV-6,http://iptv.huuc.edu.cn/hls/cctv6hd.m3u8
 CCTV-7,http://iptv.huuc.edu.cn/hls/cctv7hd.m3u8
 CCTV-8,http://iptv.huuc.edu.cn/hls/cctv8hd.m3u8
@@ -39,7 +38,7 @@ CCTV-14,https://event.pull.hebtv.com/jishi/cp2.m3u8
 河北卫视,http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
 河北卫视,http://iptv.huuc.edu.cn/hls/hebhd.m3u8
 河北卫视,http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
-河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=170b16d5938bd8e028c3c3984f3963e8&wsTime=1769306313
+河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=4ee25df866fc647ef67fee7060a043be&wsTime=1769349629
 河南卫视,http://tvpull.dxhmt.cn:9081/tv/11425-1.m3u8
 江苏卫视,http://iptv.huuc.edu.cn/hls/jshd.m3u8
 江西卫视,http://iptv.huuc.edu.cn/hls/jxhd.m3u8
@@ -56,4 +55,4 @@ CCTV-14,https://event.pull.hebtv.com/jishi/cp2.m3u8
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 
 🕘️更新时间,#genre#
-2026-01-25 06:14:17,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+2026-01-25 18:14:52,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
