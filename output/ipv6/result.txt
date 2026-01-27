@@ -38,7 +38,7 @@ CCTV-14,https://event.pull.hebtv.com/jishi/cp2.m3u8
 河北卫视,http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
 河北卫视,http://iptv.huuc.edu.cn/hls/hebhd.m3u8
 河北卫视,http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
-河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=84221de9d2a41f35c89fd912c8550290&wsTime=1769479206
+河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=f6eb4ba444500a6ff2be8628847223e9&wsTime=1769522352
 河南卫视,http://tvpull.dxhmt.cn:9081/tv/11425-1.m3u8
 江苏卫视,http://iptv.huuc.edu.cn/hls/jshd.m3u8
 江西卫视,http://iptv.huuc.edu.cn/hls/jxhd.m3u8
@@ -55,4 +55,4 @@ CCTV-14,https://event.pull.hebtv.com/jishi/cp2.m3u8
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 
 🕘️更新时间,#genre#
-2026-01-27 06:15:32,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+2026-01-27 18:19:23,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
