@@ -25,7 +25,6 @@ CCTV-14,https://t.freetv.fun/live/cctv14shao-er-1.php
 📡卫视频道,#genre#
 广东卫视,http://iptv.huuc.edu.cn/hls/gdhd.m3u8
 浙江卫视,http://iptv.huuc.edu.cn/hls/zjhd.m3u8
-浙江卫视,http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
 湖南卫视,http://iptv.huuc.edu.cn/hls/hunanhd.m3u8
 北京卫视,http://iptv.huuc.edu.cn/hls/btv1hd.m3u8
 湖北卫视,http://iptv.huuc.edu.cn/hls/hbhd.m3u8
@@ -47,7 +46,7 @@ CCTV-14,https://t.freetv.fun/live/cctv14shao-er-1.php
 河北卫视,http://iptv.huuc.edu.cn/hls/hebhd.m3u8
 河北卫视,http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
 河北卫视,https://t.freetv.fun/live/he-bei-wei-shi-6.m3u8
-河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=bd5c2653f2dcc9f43308e1ff04c3a911&wsTime=1769954267
+河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=2a9ab646c7d1c45e1c4caf6284246df1&wsTime=1769997551
 河南卫视,http://tvpull.dxhmt.cn:9081/tv/11425-1.m3u8
 河南卫视,https://t.freetv.fun/live/he-nan-wei-shi-13.php
 江苏卫视,http://iptv.huuc.edu.cn/hls/jshd.m3u8
@@ -66,4 +65,4 @@ CCTV-14,https://t.freetv.fun/live/cctv14shao-er-1.php
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 
 🕘️更新时间,#genre#
-2026-02-01 18:17:05,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+2026-02-02 06:15:05,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
