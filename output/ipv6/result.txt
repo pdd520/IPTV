@@ -64,4 +64,4 @@ CCTV-14,https://event.pull.hebtv.com/jishi/cp2.m3u8
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 
 🕘️更新时间,#genre#
-2026-02-11 18:41:27,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+2026-02-12 06:22:39,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
