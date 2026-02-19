@@ -10,9 +10,9 @@ CCTV-7,http://iptv.huuc.edu.cn/hls/cctv7hd.m3u8
 CCTV-8,http://iptv.huuc.edu.cn/hls/cctv8hd.m3u8
 CCTV-9,http://iptv.huuc.edu.cn/hls/cctv9hd.m3u8
 CCTV-10,http://iptv.huuc.edu.cn/hls/cctv10hd.m3u8
+CCTV-10,https://t.freetv.fun/live/cctv-10-2.m3u8
 CCTV-11,http://iptv.huuc.edu.cn/hls/cctv11hd.m3u8
 CCTV-12,http://iptv.huuc.edu.cn/hls/cctv12hd.m3u8
-CCTV-12,https://iptv.catvod.com/live.php?id=CCTV12&line=10
 CCTV-13,http://iptv.huuc.edu.cn/hls/cctv13hd.m3u8
 CCTV-13,https://event.pull.hebtv.com/jishi/cp1.m3u8
 CCTV-13,https://t.freetv.fun/live/cctv13-21.m3u8
@@ -25,6 +25,7 @@ CCTV-14,https://t.freetv.fun/live/cctv14-8.m3u8
 广东卫视,http://iptv.huuc.edu.cn/hls/gdhd.m3u8
 香港卫视,http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 浙江卫视,http://iptv.huuc.edu.cn/hls/zjhd.m3u8
+浙江卫视,http://ali-xwl.cztv.com/live/channel01720Plxw.m3u8
 湖南卫视,http://iptv.huuc.edu.cn/hls/hunanhd.m3u8
 湖南卫视,https://t.freetv.fun/live/hu-nan-wei-shi-13.m3u8
 北京卫视,http://iptv.huuc.edu.cn/hls/btv1hd.m3u8
@@ -33,35 +34,38 @@ CCTV-14,https://t.freetv.fun/live/cctv14-8.m3u8
 黑龙江卫视,https://idclive.hljtv.com:4430/live/hljws_own.m3u8
 黑龙江卫视,http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8
 安徽卫视,http://iptv.huuc.edu.cn/hls/ahhd.m3u8
+安徽卫视,https://t.freetv.fun/live/an-hui-wei-shi.m3u8
 重庆卫视,http://iptv.huuc.edu.cn/hls/cqhd.m3u8
 东方卫视,http://iptv.huuc.edu.cn/hls/dfhd.m3u8
 东南卫视,http://iptv.huuc.edu.cn/hls/dnhd.m3u8
 东南卫视,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
 甘肃卫视,https://hls.gstv.com.cn/49048r/6e1sy2.m3u8$山东酒店源-cache:http://47.104.102.192/ZHGXTV/Public/json/live_interface.txt
-广西卫视,https://iptv.catvod.com/live.php?id=%E5%B9%BF%E8%A5%BF%E5%8D%AB%E8%A7%86&line=2
 贵州卫视,https://t.freetv.fun/live/gui-zhou-wei-shi-5.m3u8
 河北卫视,http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
 河北卫视,http://iptv.huuc.edu.cn/hls/hebhd.m3u8
 河北卫视,http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
-河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=431b1226d399afe47c477a8b8c183f5a&wsTime=1771466296
+河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=0efe44eb7e2b472de3a3296f99b881c1&wsTime=1771509605
 河南卫视,http://tvpull.dxhmt.cn:9081/tv/11425-1.m3u8
 河南卫视,https://t.freetv.fun/live/he-nan-wei-shi-13.php
 江苏卫视,http://iptv.huuc.edu.cn/hls/jshd.m3u8
 江西卫视,http://iptv.huuc.edu.cn/hls/jxhd.m3u8
 辽宁卫视,http://iptv.huuc.edu.cn/hls/lnhd.m3u8
+辽宁卫视,https://t.freetv.fun/live/liao-zhu-wei-shi-5.m3u8
 青海卫视,http://lu.wqwqwq.sbs/itv/1000000002000013359.m3u8?cdn=ystenlive
-青海卫视,https://t.freetv.fun/live/qing-hai-wei-shi-1.m3u8
 山东卫视,http://iptv.huuc.edu.cn/hls/sdhd.m3u8
 山东卫视,http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
 山东卫视,https://t.freetv.fun/live/shan-dong-wei-shi-19.m3u8
 山西卫视,http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel7/playlist.m3u8
+山西卫视,https://t.freetv.fun/live/shan-xi-wei-shi-3-2.m3u8
 陕西卫视,http://hlsbkmgsplive.miguvideo.com/migu/kailu/shan3xiws/57/20220809/index.m3u8?msisdn=&mtv_session=&HlsSubType=1&HlsProfileId=1&nphaid=0&encrypt=
 陕西卫视,https://t.freetv.fun/live/shan-xi-wei-shi-3-1.m3u8
 四川卫视,http://iptv.huuc.edu.cn/hls/schd.m3u8
+四川卫视,https://t.freetv.fun/live/si-chuan-wei-shi-5.m3u8
 深圳卫视,http://iptv.huuc.edu.cn/hls/szhd.m3u8
-深圳卫视,https://t.freetv.fun/live/shen-zhen-wei-shi-6.m3u8
+深圳卫视,https://t.freetv.fun/live/shen-zhen-wei-shi-3.m3u8
 天津卫视,http://iptv.huuc.edu.cn/hls/tjhd.m3u8
-云南卫视,https://t.freetv.fun/live/yun-nan-wei-shi-2.m3u8
+天津卫视,https://t.freetv.fun/live/tian-jin-wei-shi-9.m3u8
+云南卫视,https://t.freetv.fun/live/yun-nan-wei-shi-3.m3u8
 
 ☘️港澳台频道,#genre#
 中天新闻,https://www.youtube.com/watch?v=vr3XyVCR4T0
@@ -69,4 +73,4 @@ CCTV-14,https://t.freetv.fun/live/cctv14-8.m3u8
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 
 🕘️更新时间,#genre#
-2026-02-19 06:24:22,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+2026-02-19 18:35:07,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
