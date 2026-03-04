@@ -23,7 +23,6 @@ CCTV-14,http://iptv.huuc.edu.cn/hls/cctv14hd.m3u8
 CCTV-14,https://event.pull.hebtv.com/jishi/cp2.m3u8
 CCTV-14,https://t.freetv.fun/live/cctv14-8.m3u8
 CCTV-16,https://t.freetv.fun/live/cctv16-2.m3u8
-CCTV-17,http://lu.wqwqwq.sbs/itv/1000000005000265015.m3u8?cdn=ystenlive
 CCTV-17,https://t.freetv.fun/live/cctv17-1.php
 
 📡卫视频道,#genre#
@@ -47,7 +46,7 @@ CCTV-17,https://t.freetv.fun/live/cctv17-1.php
 河北卫视,http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
 河北卫视,http://iptv.huuc.edu.cn/hls/hebhd.m3u8
 河北卫视,http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
-河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=754efe3eac64c51e3bc23e6a0d86bc3b&wsTime=1772632801
+河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=0e13ea62730728530717246301bb9133&wsTime=1772675901
 河南卫视,http://tvpull.dxhmt.cn:9081/tv/11425-1.m3u8
 河南卫视,https://t.freetv.fun/live/he-nan-wei-shi-13.php
 江苏卫视,http://iptv.huuc.edu.cn/hls/jshd.m3u8
@@ -75,4 +74,4 @@ CCTV-17,https://t.freetv.fun/live/cctv17-1.php
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 
 🕘️更新时间,#genre#
-2026-03-04 18:27:10,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+2026-03-05 06:22:25,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
