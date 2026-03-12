@@ -47,7 +47,7 @@ CCTV-16,https://t.freetv.fun/live/cctv16-5.php
 河北卫视,http://iptv.huuc.edu.cn/hls/hebhd.m3u8
 河北卫视,http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
 河北卫视,https://t.freetv.fun/live/he-bei-wei-shi.php
-河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=2663e3b0076e13dd460f6ffd6d01785e&wsTime=1773323897
+河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=a26762c73a34d474a2557c103a6b0634&wsTime=1773367173
 河南卫视,http://tvpull.dxhmt.cn:9081/tv/11425-1.m3u8
 河南卫视,https://t.freetv.fun/live/he-nan-wei-shi-13.php
 江苏卫视,http://iptv.huuc.edu.cn/hls/jshd.m3u8
@@ -72,4 +72,4 @@ CCTV-16,https://t.freetv.fun/live/cctv16-5.php
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 
 🕘️更新时间,#genre#
-2026-03-12 18:33:56,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+2026-03-13 06:20:33,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
