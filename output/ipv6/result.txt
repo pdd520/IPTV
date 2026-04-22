@@ -36,8 +36,10 @@ CCTV-14,https://t.freetv.fun/live/cctv14shao-er-1.php
 CCTV-15,https://zby.130519.xyz/PLTV/11/224/3221226147/index.m3u8
 CCTV-16,http://lu.wqwqwq.sbs/itv/1000000006000233002.m3u8?cdn=ystenlive
 CCTV-16,https://zby.130519.xyz/PLTV/11/224/3221226120/index.m3u8
+CCTV-17,http://lu.wqwqwq.sbs/itv/1000000005000265015.m3u8?cdn=ystenlive
 
 📡卫视频道,#genre#
+广东卫视,http://lu.wqwqwq.sbs/itv/1000000005000265034.m3u8?cdn=ystenlive
 广东卫视,http://iptv.huuc.edu.cn/hls/gdhd.m3u8
 广东卫视,https://zby.130519.xyz/PLTV/11/224/3221225731/index.m3u8
 广东卫视,https://t.freetv.fun/live/yan-dong-wei-shi-23.m3u8
@@ -74,7 +76,7 @@ CCTV-16,https://zby.130519.xyz/PLTV/11/224/3221226120/index.m3u8
 河北卫视,https://zby.130519.xyz/PLTV/11/224/3221226107/index.m3u8
 河北卫视,http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
 河南卫视,https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8
-河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=3f78745396235b86403120636383ddd5&wsTime=1776866329
+河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=474048df1d669fbd08dd999611424889&wsTime=1776909591
 河南卫视,http://tvpull.dxhmt.cn:9081/tv/11425-1.m3u8
 河南卫视,https://t.freetv.fun/live/he-nan-wei-shi-13.php
 吉林卫视,https://zby.130519.xyz/PLTV/11/224/3221226149/index.m3u8
@@ -112,4 +114,4 @@ CCTV-16,https://zby.130519.xyz/PLTV/11/224/3221226120/index.m3u8
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 
 🕘️更新时间,#genre#
-2026-04-22 19:18:11,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+2026-04-23 06:57:21,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
