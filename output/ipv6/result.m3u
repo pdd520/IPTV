@@ -29,6 +29,8 @@ http://iptv.huuc.edu.cn/hls/cctv5hd.m3u8
 http://t.061899.xyz/tl/tl.php?id=cctv5
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV5.png" group-title="📺央视频道",CCTV-5
 https://zby.130519.xyz/PLTV/11/224/3221225734/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV5.png" group-title="📺央视频道",CCTV-5
+https://ldcctvwbcdks.v.kcdnvip.com/ldcctvwbcd/cdrmldcctv5plus_1/index.m3u8?BR=td&region=shanghai
 #EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV5+.png" group-title="📺央视频道",CCTV-5+
 http://t.061899.xyz/tl/tl.php?id=cctv5p
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV6.png" group-title="📺央视频道",CCTV-6
@@ -178,7 +180,7 @@ http://t.061899.xyz/tl/tl.php?id=gxws
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/广西卫视.png" group-title="📡卫视频道",广西卫视
 https://zby.130519.xyz/PLTV/11/224/3221226084/index.m3u8
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/广西卫视.png" group-title="📡卫视频道",广西卫视
-https://hlscdn.liangtv.cn/live/0c4ef3a44b934cacb8b47121dfada66c/d7e04258157b480dae53883cc6f8123b.m3u8
+https://hlscdn.liangtv.cn/live/de0f97348eb84f62aa6b7d8cf0430770/dd505d87880c478f901f38560ca4d4e6.m3u8
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/贵州卫视.png" group-title="📡卫视频道",贵州卫视
 http://t.061899.xyz/tl/tl.php?id=gzws
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/贵州卫视.png" group-title="📡卫视频道",贵州卫视
@@ -200,7 +202,7 @@ http://t.061899.xyz/tl/tl.php?id=hnws
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/河南卫视.png" group-title="📡卫视频道",河南卫视
 https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/河南卫视.png" group-title="📡卫视频道",河南卫视
-http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=0706489ba50f98b80c5cbe2244857f1f&wsTime=1790100259
+http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=82c6f389afc71584937699a86288969a&wsTime=1790132641
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/吉林卫视.png" group-title="📡卫视频道",吉林卫视
 http://t.061899.xyz/tl/tl.php?id=jlws
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/吉林卫视.png" group-title="📡卫视频道",吉林卫视
@@ -269,5 +271,5 @@ https://www.youtube.com/watch?v=vr3XyVCR4T0
 https://www.youtube.com/watch?v=baDV1O5EBP0
 #EXTINF:-1 tvg-name="TVBS NEWS" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/TVBS NEWS.png" group-title="☘️港澳台频道",TVBS NEWS
 https://www.youtube.com/watch?v=m_dhMSvUCIc
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV1.png" group-title="🕘️更新时间",2026-09-22 22:34:24
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV1.png" group-title="🕘️更新时间",2026-09-23 08:13:52
 http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
