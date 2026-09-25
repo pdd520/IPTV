@@ -177,8 +177,6 @@ https://zby.130519.xyz/PLTV/11/224/3221226090/index.m3u8
 http://t.061899.xyz/tl/tl.php?id=gxws
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/广西卫视.png" group-title="📡卫视频道",广西卫视
 https://zby.130519.xyz/PLTV/11/224/3221226084/index.m3u8
-#EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/广西卫视.png" group-title="📡卫视频道",广西卫视
-https://hlscdn.liangtv.cn/live/0c4ef3a44b934cacb8b47121dfada66c/d7e04258157b480dae53883cc6f8123b.m3u8
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/贵州卫视.png" group-title="📡卫视频道",贵州卫视
 http://t.061899.xyz/tl/tl.php?id=gzws
 #EXTINF:-1 tvg-name="贵州卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/贵州卫视.png" group-title="📡卫视频道",贵州卫视
@@ -200,7 +198,7 @@ http://t.061899.xyz/tl/tl.php?id=hnws
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/河南卫视.png" group-title="📡卫视频道",河南卫视
 https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/河南卫视.png" group-title="📡卫视频道",河南卫视
-http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=99e7982aed38b36c4d5327d5d908ea6b&wsTime=1790273001
+http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=5557f6dccc2e43d56a624c4f9a8d6eec&wsTime=1790309091
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/吉林卫视.png" group-title="📡卫视频道",吉林卫视
 http://t.061899.xyz/tl/tl.php?id=jlws
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/吉林卫视.png" group-title="📡卫视频道",吉林卫视
@@ -269,5 +267,5 @@ https://www.youtube.com/watch?v=vr3XyVCR4T0
 https://www.youtube.com/watch?v=baDV1O5EBP0
 #EXTINF:-1 tvg-name="TVBS NEWS" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/TVBS NEWS.png" group-title="☘️港澳台频道",TVBS NEWS
 https://www.youtube.com/watch?v=m_dhMSvUCIc
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV1.png" group-title="🕘️更新时间",2026-09-24 22:51:32
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://gitee.com/ysx88/TVlogo/raw/main/img/CCTV1.png" group-title="🕘️更新时间",2026-09-25 08:28:01
 http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
