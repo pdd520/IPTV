@@ -99,7 +99,7 @@ CCTV-17,http://t.061899.xyz/tl/tl.php?id=cctv17
 河北卫视,http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
 河南卫视,http://t.061899.xyz/tl/tl.php?id=hnws
 河南卫视,https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8
-河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=340352a258a01c001946e14224268383&wsTime=1791173090
+河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=b0b327abbe06a0a8209c0674c617147d&wsTime=1791237895
 吉林卫视,http://t.061899.xyz/tl/tl.php?id=jlws
 吉林卫视,https://zby.130519.xyz/PLTV/11/224/3221226149/index.m3u8
 江苏卫视,http://iptv.huuc.edu.cn/hls/jshd.m3u8
@@ -138,4 +138,4 @@ CCTV-17,http://t.061899.xyz/tl/tl.php?id=cctv17
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 
 🕘️更新时间,#genre#
-2026-10-05 08:37:13,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+2026-10-06 03:15:03,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
