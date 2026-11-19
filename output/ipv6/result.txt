@@ -99,7 +99,7 @@ CCTV-17,http://t.061899.xyz/tl/tl.php?id=cctv17
 河北卫视,http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
 河南卫视,http://t.061899.xyz/tl/tl.php?id=hnws
 河南卫视,https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8
-河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=0f9b03da28838383f5f1062cba9ef035&wsTime=1795068236
+河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=a35a9d3ac520a494f2e5ee03b10d9123&wsTime=1795125845
 吉林卫视,http://t.061899.xyz/tl/tl.php?id=jlws
 吉林卫视,https://zby.130519.xyz/PLTV/11/224/3221226149/index.m3u8
 江苏卫视,http://iptv.huuc.edu.cn/hls/jshd.m3u8
@@ -113,7 +113,6 @@ CCTV-17,http://t.061899.xyz/tl/tl.php?id=cctv17
 辽宁卫视,https://zby.130519.xyz/PLTV/11/224/3221225747/index.m3u8
 内蒙古卫视,http://t.061899.xyz/tl/tl.php?id=nmws
 宁夏卫视,http://t.061899.xyz/tl/tl.php?id=nxws
-青海卫视,https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
 青海卫视,http://t.061899.xyz/tl/tl.php?id=qhws
 青海卫视,https://zby.130519.xyz/PLTV/11/224/3221226105/index.m3u8
 山东卫视,http://iptv.huuc.edu.cn/hls/sdhd.m3u8
@@ -139,4 +138,4 @@ CCTV-17,http://t.061899.xyz/tl/tl.php?id=cctv17
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 
 🕘️更新时间,#genre#
-2026-11-19 11:09:09,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+2026-11-20 03:00:05,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
