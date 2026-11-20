@@ -57,10 +57,10 @@ CCTV-17,http://t.061899.xyz/tl/tl.php?id=cctv17
 广东卫视,http://t.061899.xyz/tl/tl.php?id=gdws
 广东卫视,https://zby.130519.xyz/PLTV/11/224/3221225731/index.m3u8
 香港卫视,http://webcast.hkstv.tv/livestream/mutfysrq/playlist.m3u8
-浙江卫视,http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
 浙江卫视,https://play-qukan.cztv.com/live/1746687519046362.m3u8
 浙江卫视,http://iptv.huuc.edu.cn/hls/zjhd.m3u8
 浙江卫视,https://zby.130519.xyz/PLTV/11/224/3221225727/index.m3u8
+浙江卫视,http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
 湖南卫视,http://iptv.huuc.edu.cn/hls/hunanhd.m3u8
 湖南卫视,http://t.061899.xyz/tl/tl.php?id=hunws
 湖南卫视,https://zby.130519.xyz/PLTV/11/224/3221225726/index.m3u8
@@ -88,7 +88,7 @@ CCTV-17,http://t.061899.xyz/tl/tl.php?id=cctv17
 甘肃卫视,https://zby.130519.xyz/PLTV/11/224/3221226090/index.m3u8
 广西卫视,http://t.061899.xyz/tl/tl.php?id=gxws
 广西卫视,https://zby.130519.xyz/PLTV/11/224/3221226084/index.m3u8
-广西卫视,https://hlscdn.liangtv.cn/live/0c4ef3a44b934cacb8b47121dfada66c/d7e04258157b480dae53883cc6f8123b.m3u8
+广西卫视,https://hlscdn.liangtv.cn/live/de0f97348eb84f62aa6b7d8cf0430770/dd505d87880c478f901f38560ca4d4e6.m3u8
 贵州卫视,http://t.061899.xyz/tl/tl.php?id=gzws
 贵州卫视,https://zby.130519.xyz/PLTV/11/224/3221226173/index.m3u8
 海南卫视,http://t.061899.xyz/tl/tl.php?id=hinws
@@ -99,7 +99,7 @@ CCTV-17,http://t.061899.xyz/tl/tl.php?id=cctv17
 河北卫视,http://tv.pull.hebtv.com/jishi/weishipindao.m3u8?t=2510710360&k=3d44740039027301acf8341d7361ab59
 河南卫视,http://t.061899.xyz/tl/tl.php?id=hnws
 河南卫视,https://zby.130519.xyz/PLTV/11/224/3221226132/index.m3u8
-河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=a35a9d3ac520a494f2e5ee03b10d9123&wsTime=1795125845
+河南卫视,http://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=d28cf47b9310a6bd2613a5ccdbe37e8a&wsTime=1795154612
 吉林卫视,http://t.061899.xyz/tl/tl.php?id=jlws
 吉林卫视,https://zby.130519.xyz/PLTV/11/224/3221226149/index.m3u8
 江苏卫视,http://iptv.huuc.edu.cn/hls/jshd.m3u8
@@ -138,4 +138,4 @@ CCTV-17,http://t.061899.xyz/tl/tl.php?id=cctv17
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 
 🕘️更新时间,#genre#
-2026-11-20 03:00:05,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
+2026-11-20 11:00:56,http://iptv.huuc.edu.cn/hls/cctv1hd.m3u8
